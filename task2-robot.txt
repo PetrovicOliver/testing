@@ -1,0 +1,14 @@
+
+Resenje :
+       10 R
+       20 R
+       30 L
+       40 S
+       50 G 10
+       60 R
+       70 G 60
+
+     -Idemo dva puta R i jednom L (Roboti su se fakticki pomerili po jedan korak udesno),
+    sledeci korak je S ukoliko ne stanemo na mrlju izvrsava se petlja na 50 liniji G koja vraca na liniju 10 i radnja se ponavlja.
+    Sve dok levi robot ne stigne na mrlju desnog robota i ona se preskace linija 50 G i izvrsava se linija 60 R pa potom petlja na liniji 70
+    koja non stop ponavlja liniju 60. Sto bi znacilo da se levi robot duplo brze krece u odnosu na desnog robota sto bi znacilo da bi se u nekom trenutku sudarili.
